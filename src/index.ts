@@ -1,3 +1,3 @@
-import TALPage from "./components/TALPage";
+import TALPage from './components/TALPage'
 
-export {TALPage};
+export { TALPage }

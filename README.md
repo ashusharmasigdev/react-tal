@@ -5,11 +5,9 @@
 ![npm-typescript]
 [![License][github-license]][github-license-url]
 
-You can clone it and step by step create your own NPM package and publish it.
+TAL ⭐ includes components that makes your devlife easier as easier.
 
-It is simple React counter.
-
-[**Live Demo**](https://ashusharmasigdev.github.io/react-tal/)
+[**Docs & Demo**](https://ashusharmasigdev.github.io/react-tal/)
 
 ## Installation:
 
@@ -23,27 +21,27 @@ or
 yarn add -D react-tal
 ```
 
-## Usage :
+## Components & Usage:
 
-Add `MyCounter` to your component:
+NOTE: You might need ```HelmetProvider``` by ```react-helmet-async`` to use TALPage.
 
+### TALPage
 ```js
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { MyCounter } from 'react-tal'
+import { TALPage as Page } from 'react-tal'
+
+import { HelmetProvider } from 'react-helmet-async'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
     <React.StrictMode>
-        <div>
-            <h2>Default counter</h2>
-            <MyCounter />
-        </div>
-        <hr />
-        <div>
-            <h2>Counter with predefined value</h2>
-            <MyCounter value={5} />
-        </div>
+        <HelmetProvider>
+            <Page
+                title={"Sample page title"}>
+                <h1>Just a text on a page</h1>
+            </Page>
+        </HelmetProvider>
     </React.StrictMode>,
 )
 
