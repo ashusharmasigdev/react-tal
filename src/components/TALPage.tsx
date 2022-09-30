@@ -19,4 +19,6 @@ const TALPage = forwardRef<HTMLDivElement, TALPageProps>(({ children, title }, r
     )
 })
 
+TALPage.displayName = 'TALPage'
+
 export default TALPage
