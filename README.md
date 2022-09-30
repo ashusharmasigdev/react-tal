@@ -50,7 +50,7 @@ root.render(
 [npm-url]: https://www.npmjs.com/package/react-tal
 [npm-image]: https://img.shields.io/npm/v/react-tal
 [github-license]: https://img.shields.io/github/license/ashusharmasigdev/react-tal
-[github-license-url]: https://github.com/ashusharmasigdev/react-tal/blob/master/LICENSE
+[github-license-url]: https://github.com/ashusharmasigdev/react-tal/blob/mukhya/LICENSE
 [github-build]: https://github.com/ashusharmasigdev/react-tal/actions/workflows/publish.yml/badge.svg
 [github-build-url]: https://github.com/ashusharmasigdev/react-tal/actions/workflows/publish.yml
 [npm-typescript]: https://img.shields.io/npm/types/react-tal
