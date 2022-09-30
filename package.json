@@ -1,6 +1,6 @@
 {
   "name": "react-tal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TAL includes components that makes your devlife easier as easier",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
