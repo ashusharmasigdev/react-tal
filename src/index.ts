@@ -1,3 +1,3 @@
-import MyCounter from './components/App'
+import TALPage from "./components/TALPage";
 
-export { MyCounter }
+export {TALPage};
