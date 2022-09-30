@@ -23,7 +23,7 @@ yarn add -D react-tal
 
 ## Components & Usage:
 
-NOTE: You might need ```HelmetProvider``` by ```react-helmet-async`` to use TALPage.
+NOTE: You might need ```HelmetProvider``` by ```react-helmet-async``` to use TALPage.
 
 ### TALPage
 ```js
